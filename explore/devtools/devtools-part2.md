@@ -1,0 +1,2 @@
+1. The bug was that num1 and num2 are strings so we are concatenating two strings instead of adding two integers and therefore the result variable is also a string and the result of concatenation.
+2. We can fix the bug by converting num1 and num2 to numbers before adding them and storing them in result.
